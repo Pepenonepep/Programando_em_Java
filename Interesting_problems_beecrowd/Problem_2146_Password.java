@@ -29,7 +29,6 @@ Para cada caso de teste, imprima a senha correspondente. Em todos os casos, a f�
 /*O nome da classe deve ser "Main" para que a sua solução execute */
 
 
-
 package  Interesting_problems_beecrowd;
 import java.util.*;
 import java.io.*;
@@ -41,6 +40,10 @@ public class Problem_2146_Password{
 
         while(sc.hasNext()){
             int senha=sc.nextInt();
+            if(senha<1001 || senha>9999){
+                sc.close();
+                return;
+            }
             senha-=1;
             System.out.println(senha);
         }
