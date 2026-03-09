@@ -9,27 +9,6 @@ The input consists of several test cases. Each line contains the month and the d
 Output
 If it's Christmas, print "E natal!"; if it's Christmas Eve, print "E vespera de natal!"; if it has already passed, print "Ja passou!". Otherwise, print "Faltam X dias para o natal!", being X the number of days left until Christmas.
 
-Input Sample	Output Sample
-12 24
-
-11 24
-
-12 29
-
-1 5
-
-12 25
-
-E vespera de natal!
-
-Faltam 31 dias para o natal!
-
-Ja passou!
-
-Faltam 355 dias para o natal!
-
-E natal!
-
 /* Class name must be "Main" for your solution to execute */
 
 /* 🇧🇷 Portugues 
@@ -44,26 +23,6 @@ A entrada é composta por vários casos de teste. Cada linha contém o mês e o 
 Saída
 Se for Natal, imprima "E natal!"; se faltar somente um dia, imprima "E vespera de natal!"; se já passou, imprima "Ja passou!". Caso contrário, imprima "Faltam X dias para o natal!", sendo X o número de dias que faltam para o Natal.
 
-Exemplo de Entrada	Exemplo de Saída
-12 24
-
-11 24
-
-12 29
-
-1 5
-
-12 25
-
-E vespera de natal!
-
-Faltam 31 dias para o natal!
-
-Ja passou!
-
-Faltam 355 dias para o natal!
-
-E natal!
 
 /* O nome da classe deve ser "Main" para que a sua solução execute */
 

@@ -13,19 +13,6 @@ The input contains 3 integers: S (0 ≤ S ≤ 23), T (1 ≤ T ≤ 12) y F (-5 �
 Output
 Print an integer that indicates the local time specified in destination, as the examples below.
 
-Input Samples	Output Samples
-10 7 3
-
-20
-
-22 6 -2
-
-2
-0 3 -4
-
-23
-*/
-
 /*
 Class name must be "Main" for your solution to execute
  */
@@ -44,19 +31,6 @@ A entrada contém 3 inteiros: S (0 ≤ S ≤ 23), T (1 ≤ T ≤ 12) e F (-5 ≤
 
 Saída
 Imprima um inteiro que indica a hora local prevista no destino, conforme os exemplos abaixo.
-
-Exemplos de Entrada	Exemplos de Saída
-10 7 3
-
-20
-
-22 6 -2
-
-2
-0 3 -4
-
-23
-*/
 
 /*
   O nome da classe deve ser "Main" para que a sua solução execute

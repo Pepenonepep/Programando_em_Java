@@ -12,16 +12,6 @@ The input is initiated by a line containing two integer numbers, N and M (0 < N,
 Output
 The output must consist of a line containing the final number of tabs.
 
-Input Sample	Output Sample
-3 5
-fechou
-fechou
-clicou
-clicou
-clicou
-
-2
-
 /* Class name must be "Main" for your solution to execute */
 
 /* 🇧🇷 Portugues 
@@ -38,16 +28,6 @@ A entrada é iniciada por uma linha contendo dois números inteiros positivos, N
 Saída
 A saída deve ser uma linha contendo o número final de abas.
 
-Exemplo de Entrada	Exemplo de Saída
-3 5
-fechou
-fechou
-clicou
-clicou
-clicou
-
-2 
-*/
 /* O nome da classe deve ser "Main" para que a sua solução execute */
 
 

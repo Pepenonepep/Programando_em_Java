@@ -11,21 +11,6 @@ The input contains an integer N representing the buy price and then an integer M
 Output
 Print "possible" if it's possible to give the exact change or "impossible" if it's not.
 
-Input Sample	Output Sample
-11 23
-500 650
-100 600
-9948 9963
-1 2
-2 4
-0 0
-
-possible
-possible
-impossible
-possible
-impossible
-impossible
 */
 
 /* Class name must be "Main" for your solution to execute */
@@ -43,21 +28,6 @@ A entrada deve conter o valor inteiro N da compra realizada pelo cliente e, em s
 Saída
 Seu programa deverá imprimir "possible" se for possível devolver o troco exato ou "impossible" se não for possível.
 
-Exemplo de Entrada	Exemplo de Saída
-11 23
-500 650
-100 600
-9948 9963
-1 2
-2 4
-0 0
-
-possible
-possible
-impossible
-possible
-impossible
-impossible
 */
 
 /*O nome da classe deve ser "Main" para que a sua solução execute */

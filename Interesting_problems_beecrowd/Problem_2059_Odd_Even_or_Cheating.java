@@ -16,19 +16,6 @@ p is the player 1 choice (if p = 1 then player 1 chooses even, if p = 0 then pla
 Output
 Print "Jogador 1 ganha!" if player 1 won or "Jogador 2 ganha!" if player 2 won (no quotation marks).
 
-Input Samples	Output Samples
-1 4 5 0 0
-
-Jogador 2 ganha!
-
-1 4 5 1 0
-
-Jogador 1 ganha!
-
-1 4 5 1 1
-
-Jogador 2 ganha! */
-
 /* Class name must be "Main" for your solution to execute */
 
 /* 🇧🇷 Portugues 
@@ -48,19 +35,6 @@ p representa a escolha do jogador 1 (se p = 1 então o jogador 1 escolheu par, s
 
 Saída
 Imprima "Jogador 1 ganha!" se o jogador 1 ganhou ou "Jogador 2 ganha!" se o jogador 2 ganhou (sem as aspas).
-
-Exemplos de Entrada	Exemplos de Saída
-1 4 5 0 0
-
-Jogador 2 ganha!
-
-1 4 5 1 0
-
-Jogador 1 ganha!
-
-1 4 5 1 1
-
-Jogador 2 ganha! */
 
 /* O nome da classe deve ser "Main" para que a sua solução execute */
 

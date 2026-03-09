@@ -7,27 +7,6 @@ The input consists of several test cases and ends with the end of file (EOF). Th
 Output
 For each test case print the amount of contiguous subsequences and the position where the substring starts, if there is more of a subsequence, print where it started the last substring. If no there subsequence, print "Nao existe subsequencia" (that means no there subsequence). Show the result as the sample output.
 
-Input Sample	Output Sample
-78954
-7895478954789547895447895478954
-464133
-1331646546874694
-12
-1231321455123214565423112
-
-Caso #1:
-Qtd.Subsequencias: 6
-Pos: 27
-
-
-Caso #2:
-Nao existe subsequencia
-
-
-Caso #3:
-Qtd.Subsequencias: 3
-Pos: 24
-
 /* Class name must be "Main" for your solution to execute */
 
 /* 🇧🇷 Portugues 
@@ -39,27 +18,6 @@ A entrada é composta por vários casos de teste e termina com final de arquivo 
 
 Saída
 Para cada caso de teste imprima a quantidade de subsequências contíguas e a posição onde a subsequência é iniciada, caso exista mais de uma subsequência, imprima onde é iniciada a última subsequência. Caso não exista subsequência, imprima "Nao existe subsequencia". Mostre o resultado conforme o exemplo de saída.
-
-Exemplo de Entrada	Exemplo de Saída
-78954
-7895478954789547895447895478954
-464133
-1331646546874694
-12
-1231321455123214565423112
-
-Caso #1:
-Qtd.Subsequencias: 6
-Pos: 27
-
-
-Caso #2:
-Nao existe subsequencia
-
-
-Caso #3:
-Qtd.Subsequencias: 3
-Pos: 24
 
 /* O nome da classe deve ser "Main" para que a sua solução execute */
 
