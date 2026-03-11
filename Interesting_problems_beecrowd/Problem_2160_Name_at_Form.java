@@ -38,8 +38,9 @@ public class Problem_2160_Name_at_Form{
         Scanner sc=new Scanner(System.in);
         String texto=sc.nextLine();
         int tamanho=texto.length();
+        if(tamanho>=1 && tamanho<=500){
         System.out.println(tamanho>80?"NO":"YES");
-        
+        }
         sc.close();
     }
 
