@@ -1,7 +1,7 @@
 /*
 🇺🇸 English
 
-Schoenfeld and Rosser published a paper in 1962 describing a minimum and a maximum value to the quantity of prime numbers up to n, for n ≥ 17. This quantity is represented by the function (n) and the inequality is shown below.
+Schoenfeld and Rosser published a paper in 1962 describing a minimum and a maximum value to the quantity of prime numbers up to n, for n ≥ 17. This quantity is represented by the function (n).
 
 
 Your task is, given a natural number n, to compute the interval's minimum and maximum values to the approximate number of primes up to n.
@@ -18,7 +18,7 @@ The output is given as two values P and M with 1 decimal place each, such that P
 /*
 🇧🇷 Portugues 
 
-Schoenfeld e Rosser publicaram em 1962 um artigo descrevendo um valor mínimo e máximo para a quantidade de números primos até n, para n ≥ 17. Esta quantidade é representada pela função (n) e a fórmula é mostrada abaixo.
+Schoenfeld e Rosser publicaram em 1962 um artigo descrevendo um valor mínimo e máximo para a quantidade de números primos até n, para n ≥ 17. Esta quantidade é representada pela função (n).
 
 
 Sua tarefa é, dado um natural n, calcular o mínimo e máximo do intervalo para o número aproximado de primos até n.
