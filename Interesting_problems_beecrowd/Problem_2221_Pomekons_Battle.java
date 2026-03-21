@@ -86,21 +86,21 @@ public class Problem_2221_Pomekons_Battle {
                 return;
             }
             if(eh_par(L1)==true){
-                valor_golpe1=(A1+D1/2)+b;
+                valor_golpe1=(A1+D1)/2+b;
                 if(eh_par(L2)==true){
-                valor_golpe2=(A2+D2/2)+b; 
+                valor_golpe2=(A2+D2)/2+b; 
                 }
                 else{
-                valor_golpe2=(A2+D2/2);
+                valor_golpe2=(A2+D2)/2;
                 }
             }
             else{
-                valor_golpe1=(A1+D1/2);
+                valor_golpe1=(A1+D1)/2;
                 if(eh_par(L2)==true){
-                valor_golpe2=(A2+D2/2)+b; 
+                valor_golpe2=(A2+D2)/2+b; 
                 }
                 else{
-                valor_golpe2=(A2+D2/2);
+                valor_golpe2=(A2+D2)/2;
                 }
             }
             if(valor_golpe1>valor_golpe2){
