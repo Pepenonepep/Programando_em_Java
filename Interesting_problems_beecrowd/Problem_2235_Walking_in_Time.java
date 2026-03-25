@@ -55,5 +55,6 @@ public class Problem_2235_Walking_in_Time {
         }
 
         sc.close();
+        
     }    
 }
