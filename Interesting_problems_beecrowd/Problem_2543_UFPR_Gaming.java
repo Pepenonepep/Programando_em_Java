@@ -75,4 +75,5 @@ public class Problem_2543_UFPR_Gaming {
 		}
 		sc.close();
 	}
+    
 }
