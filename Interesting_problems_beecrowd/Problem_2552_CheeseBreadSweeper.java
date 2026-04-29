@@ -67,6 +67,8 @@
  */
 /* Retire: "package Interesting_problems_beecrowd;" */
 
+package Interesting_problems_beecrowd;
+
 import java.util.Scanner;
 import java.io.IOException;
 
