@@ -27,6 +27,7 @@ Imprima qual período do dia ele se encontra: "Boa Tarde!!", "Boa Noite!!", "Bom
 
 /*O nome da classe deve ser "Main" para que a sua solução execute */
 /* Retire: "package Interesting_problems_beecrowd;" */
+package Interesting_problems_beecrowd;
 
 import java.util.Scanner;
 import java.io.IOException;
