@@ -37,7 +37,6 @@ public class Problem_2686_The_Change_Continues {
         Scanner sc = new Scanner(System.in);
 
         while (sc.hasNextDouble()) {
-            double horarioFinal = 0;
             double horarioHora = 0;
             double horarioMinutos = 0;
             double horarioSegundos = 0;
