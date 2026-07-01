@@ -1,41 +1,20 @@
 /*
 🇺🇸 English
 
-Your job for this problem is to check if it is possible to schedule a set of periodic tasks under real-time constraints.
+Rafael hates rain, and to avoid getting wet he started to use a weather forecasting system. In this system he can predict if it's going to rain at the time he goes to work and/or at the time he comes back from work.
 
-A real-time task is defined by two numbers. The first number is the computational cost of the task. It is the computational cost of each complete run of the task. The second number is the period of the process. In other words, the process restarts again after each period.
+Rafael also hates to carry an umbrella when it's not raining. To avoid it, he's going to buy several umbrellas and store them
+at home and at the office, and he's only going to use it when it's raining. In other words, if it's raining at the time he goes to work, he'll take an umbrella that is at home, use it on the way to work, and leave it there. In a similar way, if it's raining at the time he comes back from work, he'll take an umbrella that is at the office, use it on the way home, and leave it there.
 
-The task set will be scheduled using the EDF algorithm (Earliest Deadline First). It is known that EDF is optimal. This means that if a set of tasks cannot be scheduled by EDF, there isn't another algorithm that can schedule it.
-
-The operating system that will run these tasks runs on a single core machine. The tasks are preemptable. That is, a task can take the place of another task during its run, if required.
-
-Consider that the cost of switching tasks is 0.
+Given the meteorological forecasts, find out how many umbrellas Rafael must buy and store at home and at the office, in a way that he never gets wet and he never has to carry an umbrella if it's not raining.
 
 Input
-The first line of the input has a value  
-1
-≤
-N
-≤
-10
-, which states the number of processes under schedule.
+The first input row has an integer N, indicating how many days were forecast by the meteorological system (1 <= N <= 1000).
 
-Every N following line represents a process, and has 2 values 
-1
-≤
-C
-≤
-5
- and 
-C
-≤
-P
-≤
-100
-, that represent the computational cost and the period of each process, respectively.
+Following there will be N rows, each with two words SD and SN, indicating the forecast of the day at the time Rafael goes to work, and at the time Rafael comes back from work, respectively. If the word is "sol", it means that at this time it's not going to rain, and if the word is "chuva", it means that at this time it's going to rain.
 
 Output
-The output consists of a single line, with the string OK or the string FAIL, if the scheduling is possible or not, respectively.
+For each test case, you should print one row with two integers C and E, indicating how many umbrellas Rafael must buy and store at home and at the office.
 
 /* Class name must be "Main" for your solution to execute */
 /* Retire: "package Interesting_problems_beecrowd;" */
@@ -43,41 +22,22 @@ The output consists of a single line, with the string OK or the string FAIL, if 
 /*
 🇧🇷 Portugues 
 
-Neste problema o seu trabalho é verificar se um conjunto de processos periódicos que possuem restrição de tempo-real pode ser escalonado.
+Rafael odeia pegar chuva, e para evitá-la ele começou a usar um sistema de previsão do tempo. Neste sistema ele consegue prever se irá chover no horário em que ele vai para o trabalho e/ou no horário que ele volta do
+trabalho.
 
-Um processo de tempo real é caracterizado por dois números. O primeiro é o custo computacional do processo. Ou seja, o tempo que o processo gasta quando entrar em execução. O segundo número é o período em que o processo executa. Ou seja, a cada período de tempo, o processo reinicia.
+Rafael também odeia carregar guarda-chuva quando não está chovendo. Para evitar isso, ele vai comprar vários guarda-chuvas e deixá-los guardados em casa e no escritório, e só vai usá-los quando estiver chovendo. Ou seja, se estiver chovendo na hora de ir para o trabalho, ele vai pegar um guarda-chuva que está em sua casa, usá-lo no caminho para o trabalho, e deixá-lo lá. De maneira semelhante, se estiver chovendo na hora de voltar para casa, ele vai pegar um guarda-chuva que está no escritório, usá-lo no caminho para casa, e deixá-lo lá.
 
-O conjunto será escalonado usando o algoritmo EDF (Earliest Deadline First). Sabe-se que o algoritmo EDF é ótimo. Ou seja, se um conjunto de tarefas não poder ser escalonado pelo EDF, ele não poderá ser escalonado por nenhum outro algoritmo.
-
-O sistema operacional que receberá estas tarefas está rodando em uma máquina single core. As tarefas são preemptáveis. Isto é uma tarefa pode tomar o lugar de outra durante a execução, se for necessário.
-
-Considere que o custo de trocar entre tarefas é 0.
+Dadas as previsões meteorológicas, descubra quantos guarda-chuvas Rafael deve comprar e guardar em casa e no escritório, de modo que ele nunca se molhe e nunca precise carregar o guarda-chuva quando não estiver chovendo.
+ 
 
 Entrada
-A primeira linha da entrada possui um valor 
-1
-≤
-N
-≤
-10
-, que é número de processos a ser avaliado.
+A primeira linha da entrada contém um inteiro N, indicando a quantidade de dias previstos pelo sistema meteorológico (1 <= N <= 1000).
 
-Cada N linha seguinte representa um processo, e contém 2 valores 
-1
-≤
-C
-≤
-5
- e 
-C
-≤
-P
-≤
-100
-, que representam o custo computacional e o período de cada processo, respectivamente.
+Em seguida haverá N linhas, cada uma contendo duas palavras SD e SN, indicando a previsão do tempo para a ida e para a volta do trabalho, respectivamente. Se a palavra for "sol" significa que neste horário fará sol, e se a palavra for "chuva" significa que neste horário irá chover.
+ 
 
 Saída
-A saída consiste de uma única linha, contendo ou o string OK ou do string FAIL, caso o escalonamento seja possível ou não, respectivamente.
+Para cada caso de teste imprima uma linha contendo dois inteiros C e E, indicando quantos guarda-chuvas Rafael deve comprar e guardar em sua casa e escritório.
 
 /*O nome da classe deve ser "Main" para que a sua solução execute */
 /* Retire: "package Interesting_problems_beecrowd;" */
