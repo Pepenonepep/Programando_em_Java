@@ -40,20 +40,21 @@ import java.util.Scanner;
 import java.io.IOException;
 
 public class Problem_2968_Hour_for_a_Run {
-    public static double resultado(double totalDePlacas, double porcentagem){
-        return Math.ceil((totalDePlacas*porcentagem)/100);
-    }
-	public static void main(String[] args) throws IOException{
-	    Scanner sc = new Scanner(System.in);
-	    double v = sc.nextDouble();
-	    double n = sc.nextDouble();
-	    for(int i=1;i<=9;i++){
-	        if(i==9){
-	            System.out.printf("%d\n",(int)resultado(v*n,i*10.0));
-	        }
-	        else {
-	           System.out.printf("%d ",(int)resultado(v*n,i*10.0));
-	       }
-	    }    
+	public static double resultado(double totalDePlacas, double porcentagem) {
+		return Math.ceil((totalDePlacas * porcentagem) / 100);
+	}
+
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		double v = sc.nextDouble();
+		double n = sc.nextDouble();
+		for (int i = 1; i <= 9; i++) {
+			if (i == 9) {
+				System.out.printf("%d\n", (int) resultado(v * n, i * 10.0));
+			} else {
+				System.out.printf("%d ", (int) resultado(v * n, i * 10.0));
+			}
+		}
+		sc.close();
 	}
 }
