@@ -40,9 +40,9 @@ Para cada caso de teste de entrada do seu programa, você deve imprimir um núme
 
 package Interesting_problems_beecrowd;
 
-import java.util.Scanner;
-import java.math.BigInteger;
 import java.io.IOException;
+import java.math.BigInteger;
+import java.util.Scanner;
 
 public class Problem_2867_Digits {
     public static void main(String[] args) throws IOException {
