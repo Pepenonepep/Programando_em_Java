@@ -29,7 +29,7 @@ For each test case, print the amount of the penalty (Xi) that the company will p
 /*
 🇧🇷 Portugues 
 
-Mario é fiscal do meio ambiente, todo dia ele visita uma empresa e solicita a eles uma lista contendo o peso das árvores cortadas pela empresa nos últimos 30 dias. Por meio da observação empírica, sabe-se que os dados sempre seguem uma distribuição normal e a empresa pagará uma multa X quando o conjunto de dados apresentar valores extremos conforme regras estatísticas do gráfico boxplot. Sendo que X é calculado da seguinte forma: X = PV, onde P é o número de observações consideradas extremas pelo boxplot e V é o valor unitário da penalidade estabelecida na normativa de fiscalização. Sua tarefa é calcular o valor da multa conforme um dado conjunto de dados e o valor unitário da multa.
+Mario é fiscal do meio ambiente, todo dia ele visita uma empresa e solicita a eles uma lista contendo o peso das árvores cortadas pela empresa nos últimos 30 dias. Por meio da observação empírica, sabe-se que os dados sempre seguem uma distribuição normal e a empresa pagará uma multa X quando o conjunto de dados apresentar valores extremos conforme regras estatísticas do gráfico boxplot. Sendo que X é calculado da seguinte forma: X = PV, onde P é o número de observações consideradas extremas pelo boxplot e V é o valor unitário da penalidade estabelecida na normativa de fiscalização. Sua tarefa é calculator o valor da multa conforme um dado conjunto de dados e o valor unitário da multa.
 
 
 O boxplot (gráfico de caixa) é um gráfico utilizado para avaliar a distribuição empírica de um conjunto de dados. Este é formado pelo primeiro e terceiro quartil, apresentando a mediana (Q2) entre estes quartis (veja figura abaixo). As hastes inferiores e superiores que se estendem do quartil inferior (Q1) e do quartil superior (Q3), denotam os limites mínimos e máximos. Portanto, valores fora desta faixa são considerados valores extremos (outliers).
@@ -60,11 +60,11 @@ Para cada caso de teste, imprima o valor da multa Xi que a empresa irá pagar (0
 
 package Interesting_problems_beecrowd;
 
-import java.util.Scanner;
-import java.util.Arrays;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class Problem_3164_Inspection_On_Company{
+public class Problem_3164_Inspection_On_Company {
 
     public static boolean KHasFraction(double k) {
         return (k - (int) k) != 0;
@@ -76,7 +76,7 @@ public class Problem_3164_Inspection_On_Company{
 
     public static double calculationQuartis(int[] vector, int n, int i) {
         double k = (i * (n + 1)) / 4.0;
-        
+
         if (KHasFraction(k)) {
             int kIndex = (int) k;
             double fraction = k - kIndex;
